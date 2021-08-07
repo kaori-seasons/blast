@@ -1,0 +1,8 @@
+{
+  "openapi": {
+    "http_addr": ":9529",
+    "api_switch": "meta_store",
+    "cluster": "cluster1.data.111",
+    "schema_path": "../conf"
+  }
+}
