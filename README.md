@@ -19,8 +19,8 @@ A network communication framework
 
 >Getting started
 
-```shell script
-$cat go.mod
+```sh
+$ cat go.mod
 module echo
 go 1.14
 require (
@@ -28,7 +28,7 @@ require (
         github.com/gin-gonic/gin v1.6.3
         github.com/sirupsen/logrus v1.7.0
 )
-$vi go.mod
+$ vi go.mod
 module echo
 go 1.14
 require (
@@ -36,14 +36,14 @@ require (
         github.com/gin-gonic/gin v1.6.3
         github.com/sirupsen/logrus v1.7.0
 )
-$sh build.sh
+$ sh build.sh
 go: finding module for package github.com/complone/blast/http_api
 go: finding module for package github.com/complone/blast
 go: finding module for package github.com/complone/blast/common
 go: downloading github.com/complone/blast v0.0.0-20210712032730-
 ba212fa0c2f9
 go: found github.com/complone/blast in github.com/complone/blast v0.0.0-20210712032730-ba212fa0c2f9
-$cat go.mod
+$ cat go.mod
 module echo
 go 1.14
 require (
@@ -55,7 +55,7 @@ require (
 
 > Example
 
-```
+```go
 package api
 import (
         "github.com/complone/blast/common"
